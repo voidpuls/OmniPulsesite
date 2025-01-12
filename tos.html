@@ -5,54 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service - OmniSpark</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
+        /* General Reset */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
         }
-        h1, h2, h3 {
-            color: #2c3e50;
+
+        body {
+          font-family: 'Whitney', Arial, sans-serif;
+          background-color: #2f3136;
+          color: #dcddde;
+          line-height: 1.5;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          padding: 0 20px;
+        }
+
+        /* Card Container */
+        .card-container {
+          max-width: 800px;
+          width: 100%;
+          background-color: #36393f;
+          border-radius: 8px;
+          overflow: hidden;
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Card Body */
+        .card-body {
+          padding: 20px;
+        }
+
+        /* Buttons */
+        .buttons {
+          display: flex;
+          gap: 10px;
+          margin-top: 20px;
+        }
+
+        .btn {
+          padding: 10px 20px;
+          background-color: #7289da;
+          color: #fff;
+          text-align: center;
+          text-decoration: none;
+          border-radius: 5px;
+          font-weight: bold;
+          transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+          background-color: #5b6eae;
         }
     </style>
 </head>
 <body>
 
-<h1>Terms of Service for OmniSpark</h1>
-<p><strong>Effective Date:</strong> January 12, 2025</p>
+<div class="card-container">
+    <div class="card-body">
+        <h1>Terms of Service for OmniSpark</h1>
+        <p><strong>Effective Date:</strong> January 12, 2025</p>
 
-<p>Welcome to OmniSpark! By using our bot, you agree to comply with and be bound by the following terms and conditions. If you do not agree with any part of these terms, please do not use the bot.</p>
+        <p>Welcome to OmniSpark! By using our bot, you agree to comply with and be bound by the following terms and conditions. If you do not agree with any part of these terms, please do not use the bot.</p>
 
-<h2>1. Acceptance of Terms</h2>
-<p>By using OmniSpark, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.</p>
+        <h2>1. Acceptance of Terms</h2>
+        <p>By using OmniSpark, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.</p>
 
-<h2>2. User Conduct</h2>
-<p>You agree to use the bot in accordance with all applicable laws and regulations. You must not:</p>
-<ul>
-    <li>Use the bot for any illegal activities.</li>
-    <li>Harass, threaten, or abuse other users.</li>
-    <li>Spam or engage in disruptive behavior.</li>
-</ul>
+        <h2>2. User Conduct</h2>
+        <p>You agree to use the bot in accordance with all applicable laws and regulations. You must not:</p>
+        <ul>
+            <li>Use the bot for any illegal activities.</li>
+            <li>Harass, threaten, or abuse other users.</li>
+            <li>Spam or engage in disruptive behavior.</li>
+        </ul>
 
-<h2>3. Command Logging</h2>
-<p>All commands you issue to OmniSpark are logged for quality assurance and support purposes. By using the bot, you consent to the collection and logging of this information.</p>
+        <h2>3. Command Logging</h2>
+        <p>All commands you issue to OmniSpark are logged for quality assurance and support purposes. By using the bot, you consent to the collection and logging of this information.</p>
 
-<h2>4. User Blacklisting</h2>
-<p>We reserve the right to blacklist any user from OmniSpark at any time and for any reason, especially in cases of abuse or violation of these Terms of Service. A blacklisted user will no longer have access to the bot's services.</p>
+        <h2>4. User Blacklisting</h2>
+        <p>We reserve the right to blacklist any user from OmniSpark at any time and for any reason, especially in cases of abuse or violation of these Terms of Service. A blacklisted user will no longer have access to the bot's services.</p>
 
-<h2>5. Modifications to Terms</h2>
-<p>We may update these Terms of Service occasionally. The updated terms will be posted within the bot or in its support Discord. Your continued use of the bot following any changes constitutes your acceptance of the new terms.</p>
+        <h2>5. Modifications to Terms</h2>
+        <p>We may update these Terms of Service occasionally. The updated terms will be posted within the bot or in its support Discord. Your continued use of the bot following any changes constitutes your acceptance of the new terms.</p>
 
-<h2>6. Disclaimer of Warranties</h2>
-<p>The bot is provided "as is" without warranty of any kind. We do not guarantee that the bot will always be available, secure, or error-free.</p>
+        <h2>6. Disclaimer of Warranties</h2>
+        <p>The bot is provided "as is" without warranty of any kind. We do not guarantee that the bot will always be available, secure, or error-free.</p>
 
-<h2>7. Limitation of Liability</h2>
-<p>To the fullest extent permitted by law, OmniSpark will not be liable for any direct, indirect, incidental, special, or consequential damages arising from your use of or inability to use the bot.</p>
+        <h2>7. Limitation of Liability</h2>
+        <p>To the fullest extent permitted by law, OmniSpark will not be liable for any direct, indirect, incidental, special, or consequential damages arising from your use of or inability to use the bot.</p>
 
-<h2>8. Governing Law</h2>
-<p>These Terms of Service shall be governed by and construed in accordance with the laws of South Carolina.</p>
+        <h2>8. Governing Law</h2>
+        <p>These Terms of Service shall be governed by and construed in accordance with the laws of South Carolina.</p>
 
-<h2>9. Contact Information</h2>
-<p>For any questions or concerns about these Terms of Service, please contact us via our support Discord: <a href="https://discord.com/invite/557azNjSZZ">Join OmniSpark Support</a>.</p>
+        <h2>9. Contact Information</h2>
+        <p>For any questions or concerns about these Terms of Service, please contact us via our support Discord: <a href="https://discord.com/invite/557azNjSZZ">Join OmniSpark Support</a>.</p>
+        
+        <div class="buttons">
+            <a href="index.html" class="btn">Back to Home</a>
+            <a href="privacy_policy.html" class="btn">Privacy Policy</a>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
